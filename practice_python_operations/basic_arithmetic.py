@@ -106,3 +106,9 @@ while start == "y":
             odd_counter += 1
             
         print(odd_counter)    
+
+    # Prog09: Create a program that print all the even numbers starting from 0 to 100. (Use for loop).
+
+    if program == 9:
+        for number in range(0, 101, 2):
+            print(number)    
