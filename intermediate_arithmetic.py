@@ -38,3 +38,10 @@ while start == "y":
         num1 = int(input("1st number? "))
         num2 = int(input("2nd number? "))
         print(f"{round(num1 / num2)}")
+
+    # Prog05: Create a program that ask user to input 2 numbers. Print the remainder when the first number is divided by the second number.
+
+    if program == 5:
+        num1 = int(input("1st number? "))
+        num2 = int(input("2nd number? "))
+        print(f"{num1 % num2}")
