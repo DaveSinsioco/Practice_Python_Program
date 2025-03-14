@@ -70,3 +70,19 @@ while start == "y":
 
         numbers.sort(reverse=True)
         print (numbers)   
+
+    # Prog05: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the average.
+
+    if program == 5:
+        numbers = []
+        while True:
+            try:
+                while True:
+                    num = int(input("Number? "))
+                    numbers.append(num)
+            except ValueError:
+                break
+
+        # print the average
+
+        print (round((sum(numbers)/len(numbers))* 100)/ 100)    
