@@ -37,3 +37,36 @@ while start == "y":
 
         duplicate_numbers = [num for num in numbers if numbers.count(num) > 1]
         print (max(set(duplicate_numbers), key=duplicate_numbers.count))
+
+    # Prog03: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the highest number
+
+    if program == 3:
+        numbers = []
+        while True:
+            try:
+                while True:
+                    num = int(input("Number? "))
+                    numbers.append(num)
+            except ValueError:
+                break
+
+        # Display the highest number
+
+        print (max(numbers))    
+
+    # Prog04: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the number from highest to lowest. Clue: sort() function 
+
+    if program == 4:
+        numbers = []
+        while True:
+            try:
+                while True:
+                    num = int(input("Number? "))
+                    numbers.append(num)
+            except ValueError:
+                break
+
+        # Display the number from highest to lowest
+
+        numbers.sort(reverse=True)
+        print (numbers)   
