@@ -24,3 +24,17 @@ while start == "y":
         num2 = int(input("2nd number? "))
         if num1 != num2:
             print("Not Equal")
+
+    # Prog03: Create a program that ask user to input 2 numbers. Print the difference of the two numbers.
+
+    if program == 3:
+        num1 = int(input("1st number? "))
+        num2 = int(input("2nd number? "))
+        print(f"{num1 - num2}")
+
+    # Prog04: Create a program that ask user to input 2 numbers. Print the quotient of the two numbers without the decimal point
+
+    if program == 4:
+        num1 = int(input("1st number? "))
+        num2 = int(input("2nd number? "))
+        print(f"{round(num1 / num2)}")
