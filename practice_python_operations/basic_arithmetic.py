@@ -112,3 +112,10 @@ while start == "y":
     if program == 9:
         for number in range(0, 101, 2):
             print(number)    
+
+    # Prog10: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero.
+
+    if program == 10:
+        for number in range(0, 101):
+            if number % 10 != 0:
+                print(number)        
