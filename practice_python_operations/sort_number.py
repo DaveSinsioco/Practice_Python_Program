@@ -56,3 +56,32 @@ while start == "y":
                         numbers.append(num)
             except ValueError:
                 break
+
+    # Prog04: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the lowest number.
+
+    if program == 4:
+        numbers = []
+        while True:
+            try:
+                while True:
+                    num = int(input("Number? "))
+                    numbers.append(num)
+            except ValueError:
+                break
+
+        print(min(numbers))        
+
+    # Prog05: Create a program that ask user to input a number, continue asking until the user input is invalid. Display the number from lowest to highest. Clue: sort() function
+
+    if program == 5:
+        numbers = []
+        while True:
+            try:
+                while True:
+                    num = int(input("Number? "))
+                    numbers.append(num)
+            except ValueError:
+                break
+
+        numbers.sort()
+        print(numbers)    
