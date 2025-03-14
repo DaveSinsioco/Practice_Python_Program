@@ -40,3 +40,19 @@ while start == "y":
                 unique_numbers.append(num)
 
         print(unique_numbers)
+
+    # Prog03: Create a program that ask user to input a number, continue asking until the user input is invalid. Display "Unique" after input when the inputted number don't have duplicate. Display "Duplicate" after input when the inputted number have duplicate. 
+    
+    if program == 3:
+        numbers = []
+        while True:
+            try:
+                while True:
+                    num = int(input("Number? "))
+                    if num in numbers:
+                        print("Duplicate")
+                    else:
+                        print("Unique")
+                        numbers.append(num)
+            except ValueError:
+                break
