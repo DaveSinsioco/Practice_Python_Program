@@ -109,3 +109,12 @@ while start == "y":
             if number % 2 != 0:
                 print(number)
             number += 1
+            
+    # Prog09: Create a program that print all the numbers starting from 0 to 100 except numbers ending in zero or ending five.
+
+    if program == 9:
+        number = 0
+        while number <= 100:
+            if number % 5 != 0:
+                print(number)
+            number += 1    
