@@ -45,3 +45,18 @@ while start == "y":
         num1 = int(input("1st number? "))
         num2 = int(input("2nd number? "))
         print(f"{num1 % num2}")
+        
+# Prog06: Create a program that ask user to input 10 numbers. Print the result of the first number minus all of the remaining numbers.
+
+    if program == 6:
+        num1 = int(input("1st number? "))
+        num2 = int(input("2nd number? "))
+        num3 = int(input("3rd number? "))
+        num4 = int(input("4th number? "))
+        num5 = int(input("5th number? "))
+        num6 = int(input("6th number? "))
+        num7 = int(input("7th number? "))
+        num8 = int(input("8th number? "))
+        num9 = int(input("9th number? "))
+        num10 = int(input("10th number? "))
+        print(f"{num1 - (num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10)}")
