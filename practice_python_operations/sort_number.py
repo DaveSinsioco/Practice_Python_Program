@@ -16,3 +16,7 @@ while start == "y":
             num_counter += 1
             num = int(input(f"Number #{num_counter}? "))
             numbers.append(num)
+
+        # Make individual numbers unique to 1 copy
+        unique_numbers = [num for num in numbers if numbers.count(num) == 1]
+        print (unique_numbers)        
