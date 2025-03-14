@@ -118,3 +118,15 @@ while start == "y":
             if number % 5 != 0:
                 print(number)
             number += 1    
+
+    # Prog10: Create a program that ask user to input 2 numbers. Print all the numbers between the two numbers.
+
+    if program == 10:
+        num1 = int(input("1st number? "))
+        num2 = int(input("2nd number? "))
+        if num1 > num2:
+            for number in range(num2 + 1, num1):
+                print(number)
+        if num1 < num2:
+            for number in range(num1 + 1, num2):
+                print(number)
